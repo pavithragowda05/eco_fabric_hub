@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom"
+import HowItWorks from "../components/HowItWorks";
 
 function Home() {
   return (
@@ -65,99 +66,7 @@ function Home() {
         </div>
       </section>
 
-      {/* How It Works */}
-      <section id="how-it-works" className="py-20 px-6 md:px-16 bg-white">
-
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-14">
-            <p className="text-green-700 font-semibold">HOW IT WORKS</p>
-
-            <h2 className="text-3xl md:text-4xl font-bold mt-3">
-              A Simple Journey Towards Sustainability
-            </h2>
-
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              Our platform helps you find a useful next step for
-              clothing you no longer need.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-
-            <div className="bg-[#f8faf5] p-8 rounded-2xl text-center">
-              <div className="text-5xl mb-5">📸</div>
-              <h3 className="text-xl font-semibold">01. Upload Your Cloth</h3>
-              <p className="text-gray-600 mt-3">
-                Upload a picture of your clothing to begin its journey.
-              </p>
-            </div>
-
-            <div className="bg-[#f8faf5] p-8 rounded-2xl text-center">
-              <div className="text-5xl mb-5">🤖</div>
-              <h3 className="text-xl font-semibold">02. AI Analysis</h3>
-              <p className="text-gray-600 mt-3">
-                Our planned AI feature will analyze the garment
-                and help identify suitable options.
-              </p>
-            </div>
-
-            <div className="bg-[#f8faf5] p-8 rounded-2xl text-center">
-              <div className="text-5xl mb-5">🌱</div>
-              <h3 className="text-xl font-semibold">03. Choose Its Next Life</h3>
-              <p className="text-gray-600 mt-3">
-                Explore donation, selling, or redesign possibilities.
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* Solutions */}
-      <section className="py-20 px-6 md:px-16">
-
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-12">
-            <p className="text-green-700 font-semibold">OUR SOLUTIONS</p>
-            <h2 className="text-3xl md:text-4xl font-bold mt-3">
-              One Platform, Three Possibilities
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-              <div className="text-4xl mb-5">💚</div>
-              <h3 className="text-2xl font-semibold">Donate</h3>
-              <p className="text-gray-600 mt-3 leading-relaxed">
-                Connect usable clothing with registered NGOs
-                and communities that can benefit from it.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-              <div className="text-4xl mb-5">🛍️</div>
-              <h3 className="text-2xl font-semibold">Sell</h3>
-              <p className="text-gray-600 mt-3 leading-relaxed">
-                Give pre-loved garments another owner and
-                extend their useful life.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-              <div className="text-4xl mb-5">🎨</div>
-              <h3 className="text-2xl font-semibold">Redesign</h3>
-              <p className="text-gray-600 mt-3 leading-relaxed">
-                Discover creative redesign possibilities and
-                connect with registered designers.
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
+      <HowItWorks />
 
       {/* About section */}
       <section className="bg-green-900 text-white py-16 px-6 md:px-16">
